@@ -1,7 +1,7 @@
 import 'react-app-polyfill/ie11';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { ProductCard,ProdcutTitle,ProductImage,ProductButtons } from '../.';
+import { ProductCard,ProductImage,ProductButtons,ProductTitle } from '../.';
 
 
 const product={
@@ -20,7 +20,7 @@ const App = () => {
                     return (
                         <>
                             <ProductImage />
-                            <ProdcutTitle />
+                            <ProductTitle/>
                             <ProductButtons/>
                         </>
                       )

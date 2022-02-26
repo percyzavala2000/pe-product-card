@@ -5,7 +5,7 @@ import { ProductContext } from "./ProductCard";
 export interface TitleProps {title?: string,className?:string,style?: HTMLAttributes<HTMLElement>| CSSProperties}
 
 
-export const ProdcutTitle = ({title,className,style}:TitleProps ) => {
+export const ProductTitle = ({title,className,style}:TitleProps ) => {
 
     const {product} = useContext(ProductContext);
     
