@@ -1,5 +1,5 @@
 {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "license": "MIT",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
@@ -11,7 +11,7 @@
         "url": "https://github.com/percyzavala2000/pe-product-card",
         "type": "git"
     },
-    "homepage": "https://www.cieloraso.com.pe",
+    "homepage": "https://github.com/percyzavala2000/pe-product-card",
     "engines": {
         "node": ">=10"
     },
